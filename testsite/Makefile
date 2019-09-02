@@ -12,7 +12,7 @@ help:
 
 # target: install - install pip requirements
 install:
-	pip install -r requirements.txt
+	pip3 install -r requirements.txt
 
 # target: migrate - migrate django database
 migrate:
