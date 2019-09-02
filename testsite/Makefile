@@ -24,7 +24,7 @@ migrate:
 run:
 	python3 manage.py runserver 8000
 
-# target: restart - restart gunicorn & nginx to reflect changes made in the backend
+# target: reload - restart gunicorn & nginx to reflect changes made in the backend
 reload:
 	sudo systemctl restart gunicorn
 	sudo systemctl reload nginx
