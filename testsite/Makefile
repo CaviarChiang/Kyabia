@@ -32,7 +32,7 @@ reload:
 
 # target: freeze - reads the versions of all installed packages in the local virtualenv and then produces the requirements.txt file
 freeze:
-	pip freeze > requirements.txt
+	pip3 freeze > requirements.txt
 
 # target: collect - calls the "collectstatic" django command
 collect:
