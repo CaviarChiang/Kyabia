@@ -13,7 +13,7 @@ connection_map = {}
 
 
 def save_message(msg_content, sender_id, receiver_id):
-    url = "http://18.222.226.32/testapp/message-save"
+    url = "http://mrmyyesterday.com:8000/testapp/message-save"
     # url = "http://127.0.0.1:8000/testapp/message-save"
     res = requests.post(url, data={
         "msg_content": msg_content,
@@ -28,7 +28,7 @@ def print_response(response):
 
 
 def save_message_async(msg_content, sender_id, receiver_id):
-    url = "http://18.222.226.32/testapp/message-save"
+    url = "http://mrmyyesterday.com:8000/testapp/message-save"
     # url = "http://127.0.0.1:8000/testapp/message-save"
     action_item = asyncreq.post(url, data={
         "msg_content": msg_content,
