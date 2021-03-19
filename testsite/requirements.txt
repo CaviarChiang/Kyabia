@@ -20,7 +20,7 @@ Django==2.2.5
 django-cors-headers==3.1.0
 django-extensions==2.2.1
 django-rest-auth==0.9.5
-djangorestframework==3.10.2
+djangorestframework==3.11.2
 djangorestframework-jwt==1.11.0
 ec2-hibinit-agent==1.0.0
 gevent==1.4.0
